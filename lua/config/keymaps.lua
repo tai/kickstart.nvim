@@ -53,10 +53,12 @@ map('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
 
 -- Easier switching with Telescope
 local tele = require('telescope.builtin')
-map('n', '<leader>fb', tele.buffers, { desc="Find open buffers" })
+map('n', '<leader>fb', tele.buffers, { desc="Find buffers" })
 map('n', '<leader>ff', tele.find_files, { desc="Find files" })
 map('n', '<leader>fg', tele.live_grep, { desc="Live grep" })
+map('n', '<leader>fh', tele.help_tags, { desc="Find help tags" })
 map('n', '<leader>fm', tele.marks, { desc="Find marks" })
 map('n', '<leader>fo', tele.oldfiles, { desc="Find oldfiles" })
+map('n', '<leader>fr', tele.registers, { desc="Find registers" })
 
 -- vim: ts=2 sts=2 sw=2 et

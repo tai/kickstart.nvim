@@ -1,4 +1,9 @@
-# Files and Buffers
+# Cursors and Marks
+- m[a-z] to mark
+- '[a-z] to move
+- <n> ( / ) / { / } / [[ / ]] / [{ / ]} - next/prev block
+
+# Files, Buffers, Tabs
 - %         - new file in dir (folder browser)
 - d         - new folder in dir (folder browser)
 
@@ -20,7 +25,14 @@
 - :b<n>     - switch to buffer
 - :bd       - close current buffer
 
-# Range ops
+- :tabs     - list tab
+- gt, gT    - next tab, prev tab
+- <N> gt    - switch to tab <N>
+- :tabnew   - new tab
+- :tabclose - close tab (buffers will remain)
+- :tabonly  - close other tabs
+
+# Ranges
 - 10,20s/foo/bar/g  (absolute line)
 - .,+10s/foo/bar/g  (relative line)
 - -3,+5s/foo/bar/g  (relative line)
