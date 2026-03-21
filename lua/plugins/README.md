@@ -1,0 +1,2 @@
+- Here, just declare what plugin you want to install
+- Actual files are installed to ~/.local/share/nvim/lazy
