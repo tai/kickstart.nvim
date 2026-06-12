@@ -29,8 +29,8 @@ map({ 'n' }, '<C-y>', 'p', opts)
 map({ 'n', 'v', 'i', 'c' }, '<C-a>', '<Home>', opts)
 map({ 'n', 'v', 'i', 'c' }, '<C-e>', '<End>', opts)
 
-map({ 'n', 'v', 'i', 'c' }, '<C-f>', '<Right>', opts)
-map({ 'n', 'v', 'i', 'c' }, '<C-b>', '<Left>', opts)
+--map({ 'n', 'v', 'i', 'c' }, '<C-f>', '<Right>', opts)
+--map({ 'n', 'v', 'i', 'c' }, '<C-b>', '<Left>', opts)
 
 map({ 'n', 'v', 'i' }, '<C-n>', '<Down>', opts)
 map({ 'n', 'v', 'i' }, '<C-p>', '<Up>', opts)
